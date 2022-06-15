@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: micronautguide
+netty:
+  default:
+    allocator:
+      max-order: 3
+github:
+  organization: micronaut-projects
+  repo: micronaut-core
+  username: ${GITHUB_USERNAME}
+  token: ${GITHUB_TOKEN}
